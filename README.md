@@ -26,4 +26,4 @@ python Pomodoro.py
 
 ## License
 
-[MIT](https://github.com/chunqiuyiyu/hexo-theme-polk/blob/master/LICENSE)
+[MIT](LICENSE)
