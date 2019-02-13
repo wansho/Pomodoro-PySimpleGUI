@@ -61,7 +61,7 @@ class TomatoClock(object):
                 is_clock_running = True
                 clock_mins = int(values["_CYCLE2_"])
                 current_left_seconds = clock_mins * 60
-                current_left_seconds = 3
+                # current_left_seconds = 3
                 window.FindElement('_TASK1_').Update(visible=False)
                 window.FindElement('_CYCLE1_').Update(visible=False)
                 window.FindElement('_TASK2_').Update(visible=False)
@@ -71,7 +71,7 @@ class TomatoClock(object):
             if event == "reset":
                 window.FindElement('_CYCLE2_').Update(self.default_mins)
                 current_left_seconds = self.default_mins * 60
-                current_left_seconds = 3
+                # current_left_seconds = 3
                 is_clock_running = False
                 window.FindElement('_TASK1_').Update(visible=True)
                 window.FindElement('_CYCLE1_').Update(visible=True)
