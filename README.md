@@ -15,6 +15,7 @@
 
 ```shell
 pip install PySimpleGUI
+pip install win10toast
 pip install pypiwin32
 ```
 
